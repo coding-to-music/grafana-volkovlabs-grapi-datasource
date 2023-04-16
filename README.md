@@ -1,3 +1,34 @@
+# grafana-volkovlabs-grapi-datasource
+
+# 🚀 Grafana HTTP API Data Source for @grafana 🚀
+
+
+https://github.com/coding-to-music/grafana-volkovlabs-grapi-datasource
+
+From / By https://github.com/VolkovLabs/volkovlabs-grapi-datasource
+
+
+## Environment variables:
+
+```java
+```
+
+## user interfaces:
+
+- Grafana http://localhost:3000
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/grafana-volkovlabs-grapi-datasource.git
+git push -u origin main
+```
+
 # Grafana HTTP API Data Source for Grafana
 
 ![Datasource](https://github.com/VolkovLabs/volkovlabs-grapi-datasource/raw/main/src/img/datasource.png)
