@@ -32,6 +32,36 @@ git remote add origin git@github.com:coding-to-music/grafana-volkovlabs-grapi-da
 git push -u origin main
 ```
 
+## Steps to run 
+
+yarn install
+
+yarn build
+
+yarn start
+
+Open port 3000 if needed
+
+Open grafana UI at http://localhost:3000
+
+Authentication
+
+The Data Source uses the internal backend proxy to avoid CORS restrictions and keep your credentials secured.
+
+Generate a Token
+
+The token can be generated from the Administration -> Service Accounts.
+
+http://localhost:3000/admin
+
+Generate a token at http://localhost:3000/org/serviceaccounts/2
+
+Generate an API Key
+
+API Key can be generated from the Configuration -> API Keys.
+
+
+
 # Grafana HTTP API Data Source for Grafana
 
 ![Datasource](https://github.com/VolkovLabs/volkovlabs-grapi-datasource/raw/main/src/img/datasource.png)
